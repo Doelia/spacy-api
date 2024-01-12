@@ -46,6 +46,6 @@ python -m spacy download fr_core_news_lg
 
 Run server :
 ```
-flask --app main run
+flask run
 ```
 

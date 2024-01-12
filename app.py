@@ -15,6 +15,7 @@ def home():
 
 @app.route("/lemmatize")
 def lemmatize():
+
     sentense = request.args.get('sentense')
     if sentense is None:
         return "Please provide ?sentense=your+sentense to lemmatize"
