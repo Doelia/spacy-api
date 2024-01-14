@@ -10,7 +10,7 @@ Model used : [fr_core_news_lg](https://spacy.io/models/fr#fr_core_news_lg)
 
 Request example :
 ```
-curl http://localhost:5000/lemmatize?sentense=j'ai%20faim
+curl http://localhost:5000/lemmatize?sentence=j'ai%20faim
 ```
 
 Response example :

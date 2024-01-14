@@ -16,11 +16,11 @@ def home():
 @app.route("/lemmatize")
 def lemmatize():
 
-    sentense = request.args.get('sentense')
-    if sentense is None:
-        return "Please provide ?sentense=your+sentense to lemmatize"
+    sentence = request.args.get('sentence')
+    if sentence is None:
+        return "Please provide ?sentence=your+sentence to lemmatize"
 
-    doc = nlp(sentense)
+    doc = nlp(sentence)
 
     json  = doc.to_json()
 
